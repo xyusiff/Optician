@@ -1,0 +1,125 @@
+blog desc - Maecenas gravida neque augue, vitae efficitur libero fringilla vel. Aliquam facilisis
+
+
+                        <div class="single-blog-posts odd">
+                            <div class="blog-name">
+                                <h3>
+                                    <a href="blog-details.html"
+                                        >{{ blog.title }}</a
+                                    >
+                                </h3>
+                            </div>
+                            <p class="blog-date">{{ blog.datetime }}</p>
+                            <div class="single-blog-img">
+                                <img
+                                    src="{% static 'img/blog/img_blog03-370x224.png' %}"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="single-blog-content">
+                                <p>
+                                    {{ blog.description }}
+                                </p>
+                                <a class="read-more" href="blog-details.html"
+                                    >Read more</a
+                                >
+                            </div>
+                        </div>
+                        <div class="single-blog-posts">
+                            <div class="blog-name">
+                                <h3>
+                                    <a href="blog-details.html"
+                                        >{{ blog.title }}</a
+                                    >
+                                </h3>
+                            </div>
+                            <p class="blog-date">{{ blog.datetime }}</p>
+                            <div class="single-blog-img">
+                                <img
+                                    src="{% static 'img/blog/img_blog02-370x224.jpg' %}"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="single-blog-content">
+                                <p>
+                                    {{ blog.description }}
+                                </p>
+                                <a class="read-more" href="blog-details.html"
+                                    >Read more</a
+                                >
+                            </div>
+                        </div>
+                        <div class="single-blog-posts odd">
+                            <div class="blog-name">
+                                <h3>
+                                    <a href="blog-details.html"
+                                        >{{ blog.title }}</a
+                                    >
+                                </h3>
+                            </div>
+                            <p class="blog-date">{{ blog.datetime }}</p>
+                            <div class="single-blog-img">
+                                <img
+                                    src="{% static 'img/blog/img_blog03-370x224.png' %}"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="single-blog-content">
+                                <p>
+                                    {{ blog.description }}
+                                </p>
+                                <a class="read-more" href="blog-details.html"
+                                    >Read more</a
+                                >
+                            </div>
+                        </div>
+                        <div class="single-blog-posts">
+                            <div class="blog-name">
+                                <h3>
+                                    <a href="blog-details.html"
+                                        >{{ blog.title }}</a
+                                    >
+                                </h3>
+                            </div>
+                            <p class="blog-date">{{ blog.datetime }}</p>
+                            <div class="single-blog-img">
+                                <img
+                                    src="{% static 'img/blog/img_blog02-370x224.jpg' %}"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="single-blog-content">
+                                <p>
+                                    {{ blog.description }}
+                                </p>
+                                <a class="read-more" href="blog-details.html"
+                                    >Read more</a
+                                >
+                            </div>
+                        </div>
+                        <div class="single-blog-posts odd">
+                            <div class="blog-name">
+                                <h3>
+                                    <a href="blog-details.html"
+                                        >Lorem ipsum dolor sit amet</a
+                                    >
+                                </h3>
+                            </div>
+                            <p class="blog-date">24/07/2015 | towerthemes</p>
+                            <div class="single-blog-img">
+                                <img
+                                    src="{% static 'img/blog/img_blog01-370x224.jpg' %}"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="single-blog-content">
+                                <p>
+                                    Maecenas gravida neque augue, vitae
+                                    efficitur libero fringilla vel. Aliquam
+                                    facilisis
+                                </p>
+                                <a class="read-more" href="blog-details.html"
+                                    >Read more</a
+                                >
+                            </div>
+                        </div>
